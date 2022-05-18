@@ -1,0 +1,59 @@
+﻿{% load static %}
+<!-- Page Title--><!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Запись</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <script src="../cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script><link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="../css?family=Lato:300i,400,400i,700%7CMontserrat:400,500,600,700%7C">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <body>
+    
+    <div class="preloader"> 
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page content-->
+      <section class="section section-single block-accent" style="background-image: url({% static 'images/big-bg-4.jpg' %}); background-size: cover;">
+        <div class="section-single-inner">
+          <div class="section-single-header">
+            <div class="container">
+              <!-- Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="{% static 'images/logo-placeholder.png' %}" alt="" width="171" height="44"></a>
+            </div>
+          </div>
+          <div class="section-single-main">
+            <div class="container">
+              <h2>Вы успешно записались!</h2>
+
+              <div class="block-decorate">
+               <a class="button button-white" href="/">Назад на главную страницу</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="section-single-footer">
+            <div class="container">
+              <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Name</span><span>.&nbsp;</span>All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="{% static 'js/core.min.js' %}"></script>
+    <script src="{% static 'js/script.js' %}"></script>
+  </body>
+</html>
